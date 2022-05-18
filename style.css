@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+<<<<<<< Updated upstream
 html {
   background-color: rgb(29, 29, 29);
 }
@@ -17,6 +18,14 @@ h1.separador {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
+=======
+body {
+  background-color: #030303;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  overflow-x: hidden;
+>>>>>>> Stashed changes
 }
 
 /*HEADER*/
@@ -166,4 +175,14 @@ img.footerline {
 a.afooter.languages:hover {
   color: #252525;
   cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+}
+
+.idiomas {
+  margin-left: 70%;
+  margin-bottom: 0;
 }
